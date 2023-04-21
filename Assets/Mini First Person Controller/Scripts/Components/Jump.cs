@@ -25,10 +25,10 @@ public class Jump : MonoBehaviour
     void LateUpdate()
     {
         // Jump when the Jump button is pressed and we are on the ground.
-        if (Input.GetButtonDown("Jump") && (!groundCheck || groundCheck.isGrounded))
+        if (Input.GetKeyDown(KeyCode.Space) && (!groundCheck || groundCheck.isGrounded))
         {
             rigidbody.AddForce(Vector3.up * 100 * jumpStrength);
-            Jumped?.Invoke();
+            //Jumped?.Invoke();
         }
     }
 }
