@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class OnDestroy : MonoBehaviour
 {
-    void OnMouseDown ()
+    public AudioClip wav;
+
+    void Start()
     {
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        AudioSource.PlayClipAtPoint(wav, gameObject.transform.position);
         Destroy(gameObject);
     }
 
