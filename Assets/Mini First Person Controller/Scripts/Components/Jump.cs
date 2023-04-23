@@ -1,14 +1,19 @@
-﻿using UnityEngine;
+﻿//using System.Numerics;
+using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
-    Rigidbody rigidbody;
-    public float jumpStrength = 2;
+
+    [Range(0, 0)]
+    public float jumpVelocity;
+    public float fallMultiplier = 2.5f;
+    public float lowJumpMultiplier = 2f;
     public event System.Action Jumped;
 
     [SerializeField, Tooltip("Prevents jumping when the transform is in mid-air.")]
     GroundCheck groundCheck;
 
+    Rigidbody rb;
 
     void Reset()
     {
@@ -18,17 +23,24 @@ public class Jump : MonoBehaviour
 
     void Awake()
     {
-        // Get rigidbody.
-        rigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
-    void LateUpdate()
+    void Update()
     {
-        // Jump when the Jump button is pressed and we are on the ground.
-        if (Input.GetKeyDown(KeyCode.Space) && (!groundCheck || groundCheck.isGrounded))
+        //Jumped
+        if (Input.GetButtonDown("Jump") && (!groundCheck || groundCheck.isGrounded))
         {
-            rigidbody.AddForce(Vector3.up * 100 * jumpStrength);
-            //Jumped?.Invoke();
+            GetComponent<Rigidbody>().velocity = Vector3.up * jumpVelocity;
+            Jumped?.Invoke();
+        }
+        //Better Jump
+        if (rb.velocity.y < 0)
+        {
+            rb.velocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        } else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
+        {
+            rb.velocity += Vector3.up * Physics.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
     }
 }
