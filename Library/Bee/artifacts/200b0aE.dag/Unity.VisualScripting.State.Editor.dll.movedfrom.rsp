@@ -7,6 +7,11 @@ Library/Bee/artifacts/movedfrom/UnityEditor.TestRunner.ref.dll_16004969834792811
 Library/Bee/artifacts/movedfrom/UnityEditor.UI.ref.dll_13622993002070669097.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEngine.TestRunner.ref.dll_12266501306040867282.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEngine.UI.ref.dll_8751741266572615572.movedfrom
+Library/Bee/artifacts/movedfrom/UnityEditor.Android.Extensions.dll_16083961617719472621.movedfrom
+Library/Bee/artifacts/movedfrom/UnityEditor.iOS.Extensions.Common.dll_12864725349305629770.movedfrom
+Library/Bee/artifacts/movedfrom/UnityEditor.iOS.Extensions.dll_2275072435947573691.movedfrom
+Library/Bee/artifacts/movedfrom/UnityEditor.iOS.Extensions.Xcode.dll_13328539085016245922.movedfrom
+Library/Bee/artifacts/movedfrom/UnityEditor.WebGL.Extensions.dll_11720109008985194075.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.Graphs.dll_15350827998425764213.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.CoreModule.dll_9471338335114971715.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.DeviceSimulatorModule.dll_1268687750184422382.movedfrom
@@ -86,7 +91,7 @@ Library/Bee/artifacts/movedfrom/UnityEngine.VRModule.dll_12511719101563107675.mo
 Library/Bee/artifacts/movedfrom/UnityEngine.WindModule.dll_2080841715887715287.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEngine.XRModule.dll_16168293473284114105.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.OSXStandalone.Extensions.dll_13149329857580647864.movedfrom
-Library/Bee/artifacts/movedfrom/Unity.Plastic.Antlr3.Runtime.dll_10298433757747390396.movedfrom
-Library/Bee/artifacts/movedfrom/Unity.VisualScripting.IonicZip.dll_3818236668361412075.movedfrom
-Library/Bee/artifacts/movedfrom/Unity.VisualScripting.YamlDotNet.dll_5611038004812632321.movedfrom
-Library/Bee/artifacts/movedfrom/Unity.VisualScripting.Antlr3.Runtime.dll_18395955670615318816.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.Plastic.Antlr3.Runtime.dll_13026712092587304729.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.VisualScripting.IonicZip.dll_6208564404451886312.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.VisualScripting.YamlDotNet.dll_13179188142312737812.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.VisualScripting.Antlr3.Runtime.dll_7517361734405872691.movedfrom
