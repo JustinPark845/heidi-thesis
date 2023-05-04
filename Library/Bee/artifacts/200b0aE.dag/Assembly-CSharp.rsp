@@ -333,7 +333,6 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/Climbing.cs"
 "Assets/Mini First Person Controller/Scripts/Components/Crouch.cs"
 "Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs"
 "Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs"
@@ -341,6 +340,7 @@
 "Assets/Mini First Person Controller/Scripts/Components/Zoom.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
+"Assets/Scripts/Climbing.cs"
 "Assets/Scripts/OnDestroy.cs"
 -langversion:8.0
 
