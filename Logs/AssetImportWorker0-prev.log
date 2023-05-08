@@ -23,115 +23,115 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65166
+49974
 Successfully changed project path to: /Users/heidibang/Desktop/unity work/heidi-thesis
 /Users/heidibang/Desktop/unity work/heidi-thesis
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 154.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 156.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.18f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/heidibang/Desktop/unity work/heidi-thesis/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2023-05-04 16:21:59.684 Unity[29622:1517579] Color LCD preferred device: AMD Radeon Pro 555X (high power)
-2023-05-04 16:21:59.684 Unity[29622:1517579] Metal devices available: 2
-2023-05-04 16:21:59.684 Unity[29622:1517579] 0: AMD Radeon Pro 555X (high power)
-2023-05-04 16:21:59.684 Unity[29622:1517579] 1: Intel(R) UHD Graphics 630 (low power)
-2023-05-04 16:21:59.685 Unity[29622:1517579] Using device AMD Radeon Pro 555X (high power)
+2023-05-04 18:35:09.032 Unity[31572:1641050] Color LCD preferred device: AMD Radeon Pro 555X (high power)
+2023-05-04 18:35:09.032 Unity[31572:1641050] Metal devices available: 2
+2023-05-04 18:35:09.033 Unity[31572:1641050] 0: AMD Radeon Pro 555X (high power)
+2023-05-04 18:35:09.033 Unity[31572:1641050] 1: Intel(R) UHD Graphics 630 (low power)
+2023-05-04 18:35:09.033 Unity[31572:1641050] Using device AMD Radeon Pro 555X (high power)
 Initializing Metal device caps: AMD Radeon Pro 555X
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.18f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.1.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56622
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001526 seconds.
+Registered in 0.000998 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 126.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 150.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.121 seconds
+- Completed reload, in  5.540 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5131ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (5540ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (662ms)
-			LoadAssemblies (96ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (329ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (317ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (403ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
+				RefreshPlugins (150ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008227 seconds.
+Registered in 0.005196 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 130.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 159.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.792 seconds
+- Completed reload, in  2.223 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1793ms)
-		BeginReloadAssembly (219ms)
+	ReloadAssembly (2224ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1493ms)
-			LoadAssemblies (148ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1932ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (543ms)
+			SetupTypeCache (656ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (616ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (857ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (379ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (506ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.1.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4281 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.4 MB.
-System memory in use after: 192.7 MB.
+System memory in use before: 192.6 MB.
+System memory in use after: 192.8 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4754.
-Total: 5.828257 ms (FindLiveObjects: 0.427699 ms CreateObjectMapping: 0.349500 ms MarkObjects: 4.923748 ms  DeleteObjects: 0.125924 ms)
+Total: 5.429543 ms (FindLiveObjects: 0.439629 ms CreateObjectMapping: 0.258621 ms MarkObjects: 4.607193 ms  DeleteObjects: 0.122626 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -145,144 +145,385 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/City Ruins - Post Apocalypse/DEMO Desert Version.unity
-  artifactKey: Guid(a7c760ccbaa3c964888a199f767ad842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/DEMO Desert Version.unity using Guid(a7c760ccbaa3c964888a199f767ad842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c523541e8892a65d05b0419f82c86a') in 0.014650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
   path: Assets/Scenes/scene 2.unity
   artifactKey: Guid(b82d9af7ca34345cdad992fc54fac660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/scene 2.unity using Guid(b82d9af7ca34345cdad992fc54fac660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965e8821d5b642d18dca803157b8b937') in 0.003072 seconds 
+Start importing Assets/Scenes/scene 2.unity using Guid(b82d9af7ca34345cdad992fc54fac660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eee70148f2bb73f990ba256b323f167') in 0.019358 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 659.588612 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_01.prefab
-  artifactKey: Guid(e332ce897845371488636acd6570b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_01.prefab using Guid(e332ce897845371488636acd6570b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c7610524547d983b74cb981c66aa92') in 1.291868 seconds 
+  Time since last request: 103.748334 seconds.
+  path: Assets/City Ruins - Post Apocalypse/TEXTURES/leaves_texture_03 1.png
+  artifactKey: Guid(c788dbb7938955b47accab7884af3522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Ruins - Post Apocalypse/TEXTURES/leaves_texture_03 1.png using Guid(c788dbb7938955b47accab7884af3522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c99a7d60c269533c372697c5e60002') in 1.471166 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005242 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.492 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1492ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1285ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4172 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 258.2 MB.
+System memory in use after: 258.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4773.
+Total: 5.319871 ms (FindLiveObjects: 0.319589 ms CreateObjectMapping: 0.233489 ms MarkObjects: 4.742354 ms  DeleteObjects: 0.023309 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1325ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1144ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.9 MB.
+System memory in use after: 253.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4775.
+Total: 6.394475 ms (FindLiveObjects: 0.369220 ms CreateObjectMapping: 0.270254 ms MarkObjects: 5.734866 ms  DeleteObjects: 0.019063 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_hanging_01.prefab
-  artifactKey: Guid(8b8a7a7ac3daa1247b5df030da3dd76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_hanging_01.prefab using Guid(8b8a7a7ac3daa1247b5df030da3dd76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747344bddb094614c5402436016725e7') in 0.017424 seconds 
+  Time since last request: 1677.504515 seconds.
+  path: Assets/Materials/New Material 6.mat
+  artifactKey: Guid(cd311d0607dc646a794766f6c34ec85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 6.mat using Guid(cd311d0607dc646a794766f6c34ec85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f1920351540ecaa6501fa971161f4c') in 1.193990 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004234 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1357ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1155ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (435ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 329.2 MB.
+System memory in use after: 329.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4855.
+Total: 4.537306 ms (FindLiveObjects: 0.369809 ms CreateObjectMapping: 0.322874 ms MarkObjects: 3.822967 ms  DeleteObjects: 0.020669 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_roots_hanging_01.prefab
-  artifactKey: Guid(a13bec9a0f54b204ba9122413d580faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_roots_hanging_01.prefab using Guid(a13bec9a0f54b204ba9122413d580faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266d0e9243a7e4c2165651b7ed39dee6') in 0.020138 seconds 
+  Time since last request: 26.403186 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/Crouch.cs
+  artifactKey: Guid(27b67ddb3d23b8340b125aede56d7e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/Components/Crouch.cs using Guid(27b67ddb3d23b8340b125aede56d7e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccc6470be2602ab60c0afc1269d65ce') in 0.232528 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_06.prefab
-  artifactKey: Guid(f05c8988c05fcf84987777620b3fa6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_06.prefab using Guid(f05c8988c05fcf84987777620b3fa6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10465c6d87b93e8aa39c722a7bab3194') in 0.014760 seconds 
+  Time since last request: 1.680424 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/Zoom.cs
+  artifactKey: Guid(780f90e951d635f439326ea715cd97e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/Components/Zoom.cs using Guid(780f90e951d635f439326ea715cd97e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012bea29739d3527bcd3e422718f2f59') in 0.002149 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_05.prefab
-  artifactKey: Guid(665209e97d1719a42a5ca8dc17588ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_05.prefab using Guid(665209e97d1719a42a5ca8dc17588ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb81b60c61e0a6fa48390c4970e2d1a9') in 0.015999 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003444 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1372ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1163ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 400.9 MB.
+System memory in use after: 401.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4857.
+Total: 5.705209 ms (FindLiveObjects: 0.468329 ms CreateObjectMapping: 0.299945 ms MarkObjects: 4.913371 ms  DeleteObjects: 0.022451 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_04.prefab
-  artifactKey: Guid(939e661e54c473245b45a43fd48584ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_04.prefab using Guid(939e661e54c473245b45a43fd48584ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13278d387c8c90b1ed7ae9dc142ac4e') in 0.015865 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003254 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1367ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1159ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (458ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 396.2 MB.
+System memory in use after: 396.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4859.
+Total: 5.515863 ms (FindLiveObjects: 0.368204 ms CreateObjectMapping: 0.569813 ms MarkObjects: 4.552126 ms  DeleteObjects: 0.024168 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_03.prefab
-  artifactKey: Guid(16a19fba926a3554283facd084ca1f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_03.prefab using Guid(16a19fba926a3554283facd084ca1f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84898047cac397f170a01fc8de471b04') in 0.009833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_02.prefab
-  artifactKey: Guid(9ad9cad0e747fdf40b40ed0fecd9e1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bush_02.prefab using Guid(9ad9cad0e747fdf40b40ed0fecd9e1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23077bd3c398965e3edb50f1131a2ac1') in 0.013810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_lianas_01.prefab
-  artifactKey: Guid(3f18fab836aec994bb87c6b8d547ae5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_lianas_01.prefab using Guid(3f18fab836aec994bb87c6b8d547ae5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972d1312babdad6a5322ee002d2bc346') in 0.019669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_lianas_02.prefab
-  artifactKey: Guid(da9ff4043d80152498fbed7d6b9a809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_lianas_02.prefab using Guid(da9ff4043d80152498fbed7d6b9a809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ab45cb7c57abdee7efc0fca4a8c466') in 0.018078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_hanging_03.prefab
-  artifactKey: Guid(1c54d8a602a3ea2428cfe62d6e5f3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_hanging_03.prefab using Guid(1c54d8a602a3ea2428cfe62d6e5f3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ea002ac33d1cc52d6e9ab3b6ace3e7') in 0.015918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_lianas_04.prefab
-  artifactKey: Guid(fcaf73779a3ba1945a59de861ebfca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_lianas_04.prefab using Guid(fcaf73779a3ba1945a59de861ebfca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dff9b138495cbb8757989473fb296e') in 0.015060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_batch_01.prefab
-  artifactKey: Guid(e251f8003fa273b4e97635ab9ab19a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_batch_01.prefab using Guid(e251f8003fa273b4e97635ab9ab19a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9d89d01de883a64a02dd06107bfcd1') in 0.011253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_batch_02.prefab
-  artifactKey: Guid(2f04b17976b54b74d981f094b3ff1c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_batch_02.prefab using Guid(2f04b17976b54b74d981f094b3ff1c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dfb5f7a6d6455353a06b37d87690f8') in 0.014445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_hanging_02.prefab
-  artifactKey: Guid(682d4c93a1639604b8caa3f355d82393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_bushes_hanging_02.prefab using Guid(682d4c93a1639604b8caa3f355d82393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa0cee32802201a6cb803a6dc06e019') in 0.015116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_roots_hanging_02.prefab
-  artifactKey: Guid(94c2959574a819e46ad434fdff676d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_roots_hanging_02.prefab using Guid(94c2959574a819e46ad434fdff676d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5eefaef275c35b4f7c5d7118ce85b73') in 0.014994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_roots_hanging_03.prefab
-  artifactKey: Guid(74e6624da96756849b8aad4e2779d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_roots_hanging_03.prefab using Guid(74e6624da96756849b8aad4e2779d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4f6307a2dc07765b7ac308f65f8ca8') in 0.010522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_lianas_03.prefab
-  artifactKey: Guid(2dacb3a7a2251bf4c938b50d273aca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Hanging Plants and Bushes/SM_lianas_03.prefab using Guid(2dacb3a7a2251bf4c938b50d273aca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba0e958c836aacec71e3382f53ff029') in 0.011590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.019442 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Trees/SM_tree_01.prefab
-  artifactKey: Guid(50806b76b853f1d41ae971b1fa8e1664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Trees/SM_tree_01.prefab using Guid(50806b76b853f1d41ae971b1fa8e1664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec935d4a9692887e71181e436533179') in 0.011533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Trees/SM_tree_large.prefab
-  artifactKey: Guid(4c6b9594a04ad2d468bcae2e9d2ed193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Trees/SM_tree_large.prefab using Guid(4c6b9594a04ad2d468bcae2e9d2ed193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f60e465f2869d56f6cfdab93981488') in 0.013200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Trees/SM_tree_03.prefab
-  artifactKey: Guid(d40c275403d96c24f8c5a28573c0a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Trees/SM_tree_03.prefab using Guid(d40c275403d96c24f8c5a28573c0a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2a639f4fa274470a60d8d57c166e0b') in 0.020078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/City Ruins - Post Apocalypse/PREFABS/Trees/SM_tree_02.prefab
-  artifactKey: Guid(758e51e833fa0ee4d8bad9ef92153cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City Ruins - Post Apocalypse/PREFABS/Trees/SM_tree_02.prefab using Guid(758e51e833fa0ee4d8bad9ef92153cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16928e31ccfb92ee2256cef9b313375') in 0.013298 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003944 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/heidibang/Desktop/unity work/heidi-thesis/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.469 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1469ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1254ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (474ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (359ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 391.6 MB.
+System memory in use after: 391.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4861.
+Total: 4.438504 ms (FindLiveObjects: 0.334544 ms CreateObjectMapping: 0.189112 ms MarkObjects: 3.893405 ms  DeleteObjects: 0.020374 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
