@@ -1,0 +1,9 @@
+Assembly-CSharp.csproj
+heidi-thesis.sln
+Library/
+Logs/
+obj/
+Packages/
+ProjectSettings/
+Temp/
+UserSettings/
