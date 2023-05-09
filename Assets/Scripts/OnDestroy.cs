@@ -10,7 +10,7 @@ public class OnDestroy : MonoBehaviour
     {
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider collision)
     {
         AudioSource.PlayClipAtPoint(wav, gameObject.transform.position);
         Destroy(gameObject);
